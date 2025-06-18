@@ -1,0 +1,20 @@
+2025-06-17 22:36:06.546 +0545 [20046] LOG:  starting PostgreSQL 14.18 (Homebrew) on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-06-17 22:36:06.550 +0545 [20046] LOG:  listening on IPv6 address "::1", port 5432
+2025-06-17 22:36:06.550 +0545 [20046] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-06-17 22:36:06.687 +0545 [20046] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-06-17 22:36:06.719 +0545 [20049] LOG:  database system was shut down at 2025-06-17 22:33:41 +0545
+2025-06-17 22:36:06.734 +0545 [20046] LOG:  database system is ready to accept connections
+2025-06-17 22:36:14.518 +0545 [20080] FATAL:  database "sweta_personal1" does not exist
+2025-06-17 22:36:19.430 +0545 [20097] FATAL:  role "postgres" does not exist
+2025-06-17 22:36:25.480 +0545 [20114] FATAL:  database "sweta_personal1" does not exist
+2025-06-17 22:36:34.198 +0545 [20139] FATAL:  database "sweta_personal1" does not exist
+2025-06-17 22:36:44.610 +0545 [20167] FATAL:  database "sweta_personal1" does not exist
+2025-06-17 22:38:14.597 +0545 [20222] ERROR:  syntax error at or near "=" at character 53
+2025-06-17 22:38:14.597 +0545 [20222] STATEMENT:  CREATE USER sweta_personal1 WITH SUPERUSER PASSWORD = 'sweta';
+2025-06-17 22:38:21.744 +0545 [20222] ERROR:  role "sweta_personal1" already exists
+2025-06-17 22:38:21.744 +0545 [20222] STATEMENT:  CREATE USER sweta_personal1 WITH SUPERUSER PASSWORD  'sweta';
+2025-06-18 21:18:16.862 +0545 [95106] FATAL:  database "sweta_personal1" does not exist
+2025-06-18 21:23:51.548 +0545 [96164] ERROR:  relation "django_migrations" does not exist at character 13
+2025-06-18 21:23:51.548 +0545 [96164] STATEMENT:  DELETE FROM django_migrations;
+2025-06-18 21:24:29.647 +0545 [96282] ERROR:  relation "django_migrations" does not exist at character 13
+2025-06-18 21:24:29.647 +0545 [96282] STATEMENT:  DELETE FROM django_migrations;
